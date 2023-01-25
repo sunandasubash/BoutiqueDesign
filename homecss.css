@@ -1,0 +1,363 @@
+/* .header { 
+	background-color:white;
+	box-shadow:0 1px 1px #ccc;
+	padding: 10px 50px;
+	height: 80px;
+	color: #ffffff;
+	box-sizing: border-box;
+	top:-100px;
+
+	-webkit-transition:top 0.3s;
+	transition:top 0.3s;
+}
+
+.header .header-top {
+	max-width: 1200px;
+	text-align: center;
+	margin: 0 auto;
+  
+}
+
+
+.header-placeholder{
+	height: 80px;
+	display: none;
+/* } */
+
+/* .header .header-top h1 {  */
+	text-align:center; 
+	/* font: normal 28px ; */
+  font-family: 'Moon Dance', cursive;
+	/* line-height: 40px; 
+	/* margin: 0; */
+/* } */
+
+/* .header .header-top h1 span { 
+	color: #5383d3;
+}
+
+.header .header-top a {
+  font:16px;
+	color: #121212;
+	text-decoration: none;
+  font-family: 'Moon Dance', cursive;
+}
+
+.header .header-top nav a{
+	line-height: 40px;
+	float: right;
+  margin: 10px;
+}
+
+.header .header-top nav a:hover{
+	display: inline-block;
+  font-size: 16px !important;
+	padding: 2px;
+	text-decoration:none;
+	color: #f57474;
+	opacity: 1;
+}
+
+.header .header-top nav a.selected {
+	color: #608bd2;
+	pointer-events: none;
+	opacity: 1;
+}
+
+body.fixed .header {
+	padding: 10px 40px;
+	height: 50px;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+body.fixed .header-placeholder {
+	display: block;
+}
+
+body.fixed .header .header-top h1 {
+	font-size: 24px;
+  font-family: 'Moon Dance', cursive;
+  font-style: oblique;
+	line-height: 30px;
+}
+
+body.fixed .header .header-top nav {
+	line-height: 28px;
+	font-size: 13px;
+}
+
+
+/* Making the header responsive */
+
+ @media all and (min-width: 992px) {
+  .intro {
+    margin-top: -58.59px;
+  }
+ }
+	/* .header { 
+		padding: 20px 0;
+		height: 75px;
+	}
+
+	.header .header-top h1 {
+		float: none;
+		margin: -8px 0 10px;
+		text-align: center;
+		font-size: 24px;
+		line-height: 1;
+	}
+
+	.header .header-top nav {
+		line-height: 1;
+		float:none;
+	}
+
+	.header .header-top nav a {
+		font-size: 13px;
+	}
+
+	body.fixed .header {
+		display: none;
+	}
+
+ } 
+body {
+	/* margin: 0;
+	padding: 0; */
+  /* background-color:rgb(247, 227, 231) */
+/* }
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+  text-decoration: none; */
+/* } */
+/*bg image */
+/* * {box-sizing:border-box} */
+
+/* Slideshow container */
+.wrapper{
+  width: 100vw;
+    display: flex;
+     /* animation: slide 5s infinite;  */
+     flex-direction: row;
+   justify-content: space-evenly;
+    align-items: center; 
+
+  
+ } 
+.mySlides{
+  opacity: 0.5;
+  height: 50vh;
+}
+.mySlides:nth-child(2) {
+  opacity: 1;
+  width: 33%;
+  height: 80vh;
+
+ }  
+ .mask{
+  background-color: #d9d9d9;
+  opacity: 0.7;
+ }
+
+/* img{
+  width: 100%;
+} */
+
+/* @keyframes slide{
+  0%{
+      transform: translateX(0);
+  }
+  25%{
+      transform: translateX(0);
+  }
+  50%{
+      transform: translateX(-100%);
+  }
+  75%{
+      transform: translateX(-200%);
+  }
+  100%{
+      transform: translateX(-300%);
+  }
+} */
+header{
+  /* background-color: green; */
+  color: rgb(251, 251, 177);
+  font-size: 3px;
+  }
+.nav-item a:hover{
+  /* background-color: rgb(50, 112, 6);  */
+ color: rgb(219, 42, 15)  !important;
+}
+.link{
+  font-family: 'Moon Dance', cursive;
+}
+.navbar{
+  font-family:'Moon Dance' ;
+  font-size: 20px;
+  border: 1px solid white;
+}
+.collapse h4{
+  font-size: 30px;
+  margin: 0px 0px 0px 55px ;
+  font-family:'Moon Dance' ;
+}
+.collapse{
+  /* background-color: green; */
+}
+
+/*footer*/
+/* footer{
+  margin-top: 20px;
+  width: 100%;
+  position:static;
+  bottom: 0;
+  left: 0;
+	height: 1500px;
+  background: rgba(77, 69, 69, 0.863);
+}
+footer .content{
+  max-width: 1350px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+footer .content p,a{
+  color: #fff;
+}
+footer .content .box{
+  width: 33%;
+  transition: all 0.4s ease;
+}
+footer .content .topic{
+  font-size: 22px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 16px;
+
+}
+footer .content p{
+  text-align: justify;
+}
+footer .content .lower .topic{
+  margin: 24px 0 5px 0;
+}
+footer .content .lower i{
+  padding-right: 16px;
+}
+footer .content .middle{
+  padding-left: 80px;
+}
+footer .content .middle a{
+  line-height: 32px;
+}
+footer .content .right input[type="text"]{
+  height: 45px;
+  width: 100%;
+  outline: none;
+  color: #d9d9d9;
+  background: #000;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-size: 17px;
+  border: 2px solid #222222;
+}
+footer .content .right input[type="submit"]{
+  height: 42px;
+  width: 100%;
+  font-size: 18px;
+  color: #d9d9d9;
+  background: #eb2f06;
+  outline: none;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-top: 12px;
+  border: 2px solid #eb2f06;
+  transition: all 0.3s ease-in-out;
+}
+.content .right input[type="submit"]:hover{
+  background: none;
+  color:  #eb2f06;
+}
+footer .content .media-icons a{
+  font-size: 16px;
+  height: 45px;
+  width: 45px;
+  display: inline-block;
+  text-align: center;
+  line-height: 43px;
+  border-radius: 5px;
+  border: 2px solid #222222;
+  margin: 30px 5px 0 0;
+  transition: all 0.3s ease;
+}
+.content .media-icons a:hover{
+  border-color: #eb2f06;
+}
+footer .bottom{
+  width: 100%;
+  text-align: right;
+  color: #d9d9d9;
+  padding: 0 40px 5px 0;
+}
+footer .bottom a{
+  color: #eb2f06;
+}
+footer a{
+  transition: all 0.3s ease;
+}
+footer a:hover{
+  color: #eb2f06;
+}
+@media (max-width:1100px) {
+  footer .content .middle{
+    padding-left: 50px;
+  }
+}
+@media (max-width:950px){
+  footer .content .box{
+    width: 50%;
+  }
+  .content .right{
+    margin-top: 40px;
+  }
+}
+@media (max-width:560px){
+  footer{
+    position: relative;
+  }
+  footer .content .box{
+    width: 100%;
+    margin-top: 30px;
+  }
+  footer .content .middle{
+    padding-left: 0;
+  }
+} */
+.footer {
+  background-color: rgb(139, 126, 126);
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer h4{
+  margin-bottom: 10px;}
+.contact{font-size: 10px}
+
+@media (max-width: 768px) {
+  .footer .col-sm-4 {
+      text-align: center;
+  }
+}
+
