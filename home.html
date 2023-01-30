@@ -24,25 +24,25 @@ integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CX
 crossorigin="anonymous"></script>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg bg-white">
-    <div class="container-fluid">
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid" id="home">
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-      <img id="logo" src="ff.jpg" alt="" style="width:55px;height:55px">
-      <h4>My Botique</h4>
+      <img id="logo" src="wed4.jpg" alt="" style="width:55px;height:55px;border-radius: 50%;">
+      <h4><strong>Botique</strong> </h4>
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
         <li class="nav-item p-2">
-          <a class="nav-link active text-dark" aria-current="page" href="home.html">Home</a>
+          <a class="nav-link active text-dark" aria-current="page" href="#home">Home</a>
         </li>
         <li class="nav-item p-2 dropdown">
-          <a class="nav-link dropdown-toggle" href="collection.html" role="button" data-bs-toggle="dropdown">Collection</a>
+          <a class="nav-link dropdown-toggle" href="#collection" role="button" data-bs-toggle="dropdown">Collection</a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Saree</a></li>
-              <li><a class="dropdown-item" href="#">Western</a></li>
-              <li><a class="dropdown-item" href="#">Jeans&Kurti's</a></li>
+              <li><a class="dropdown-item" href="#collection">Saree</a></li>
+              <li><a class="dropdown-item" href="#collection">Western</a></li>
+              <li><a class="dropdown-item" href="#collection">Jeans&Kurti's</a></li>
             </ul>
         </li>
         <li class="nav-item p-2 dropdown">
@@ -54,10 +54,13 @@ crossorigin="anonymous"></script>
             </ul>
         </li>
         <li class="nav-item p-2">
-          <a class="nav-link active text-dark" href="#">AboutUs</a>
+          <a class="nav-link active text-dark" href="#about">About</a>
         </li>
         <li class="nav-item p-2">
-          <a class="nav-link active text-dark" href="#">ContactUs</a>
+          <a class="nav-link active text-dark" href="#review">Review</a>
+        </li>
+        <li class="nav-item p-2">
+          <a class="nav-link active text-dark" href="#contact">ContactUs</a>
         </li>
         <li class="nav-item p-2">
           <a class="nav-link active text-dark" href="#"><i class="fa fa-heart-o"></i></a>
@@ -77,56 +80,214 @@ crossorigin="anonymous"></script>
   </div>
 </nav>
 <!-- Slideshow container -->
-     <div id="wrap" class="wrapper" >
-      <img class="mySlides" src="wed1.jpeg">
+    <div id="wrap" class="wrapper" >
+      <div class="overlay">
+       <img class="mySlides" src="wed1.jpeg">
+       <button class="btn">Shop Now</button></div>
       <img class="mySlides" src="gown.jpeg">
       <img class="mySlides" src="gg.jpeg"> 
-</div>
-
-<!-- FOOTER -->
-<!-- <footer>
-    <div class="content">
-      <div class="left box">
-        <div class="upper">
-          <div class="topic">About us</div>
-          <p>If you are interested in sharing information about your clothing contact</p>
-        </div>
-        <div class="lower">
-          <div class="topic">Contact us</div>
-          <div class="phone">
-            <a href="#"><i class="fas fa-phone-volume"></i>+007 9089 6767</a>
-          </div>
-          <div class="email">
-            <a href="#"><i class="fas fa-envelope"></i>abc@gmail.com</a>
-          </div>
-        </div>
-      </div>
-      <div class="right box">
-        <div class="topic">Contact us</div>
-        <form action="#">
-          <input type="text" placeholder="Enter email address">
-          <input type="submit" name="" value="Send">
-          <div class="media-icons">
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-youtube"></i></a>
-            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-          </div>
-        </form>
+    </div>
+<!-- Collections -->
+<div class="common" id="collection">
+<div class="heading">
+  <div class="row">
+    <h3><strong>--  COLLECTIONS</strong></strong--></h3></div></div>
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="column">
+    <div class="card">
+      <img src="saree3.jpg" class="card-img-top" alt="..." style="width:50vh ;height:60vh">
+      <div class="card-body">
+        <h5 class="card-title">Saree</h5>
+        <a href="#" class="btn btn-primary">Shop Now</a>
       </div>
     </div>
-    <div class="bottom">
-      <p>Copyright © 2023 <a href="#">Botique</a> All rights reserved</p>
-    </div></footer>
-</div> -->
-<footer class="footer">
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="gown.jpeg" class="card-img-top" alt="..." style="width:50vh ;height:60vh">
+      <div class="card-body">
+        <h5 class="card-title">Gown</h5>
+        <a href="#" class="btn btn-primary">Shop Now</a>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="pants.jpeg" class="card-img-top" alt="..." style="width:50vh ;height:60vh">
+      <div class="card-body">
+        <h5 class="card-title">Kurti</h5>
+        <a href="#" class="btn btn-primary">Shop Now</a>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="top.jpeg" class="card-img-top" alt="..." style="width:50vh ;height:60vh">
+      <div class="card-body">
+        <h5 class="card-title">Kurti&Jeans</h5>
+        <a href="#" class="btn btn-primary">Shop Now</a>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="saree2.jpeg" class="card-img-top" alt="..." style="width:50vh ;height:60vh">
+      <div class="card-body">
+        <h5 class="card-title">Gown</h5>
+        <a href="#" class="btn btn-primary">Shop Now</a>
+      </div>
+    </div>
+  </div>
+    <div class="column">
+    <div class="card">
+      <img src="kurti.jpg" class="card-img-top" alt="..." style="width:50vh ;height:60vh">
+      <div class="card-body">
+        <h5 class="card-title">Gown</h5>
+        <a href="#" class="btn btn-primary">Shop Now</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- About us -->
+ <div class="heading" id="about">
+  <div class="row">
+    <h3><strong>--  ABOUT US</strong></h3></div></div>
+<div class="row row-cols-1 row-cols-md-4 g-4">
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="person.jpg" alt="Avatar" style="width:300px;height:300px;">
+      </div>
+      <div class="flip-card-back">
+        <h1>John Doe</h1> 
+        <p>Architect & Engineer</p> 
+        <p>We love that guy</p>
+        <a href="#" class="btn btn-primary">Contact</a>
+      </div>
+    </div>
+    </div>
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="person2.png" alt="Avatar" style="width:300px;height:300px;">
+        </div>
+        <div class="flip-card-back">
+          <h1>John Doe</h1> 
+          <p>Architect & Engineer</p> 
+          <p>We love that guy</p>
+          <a href="#" class="btn btn-primary">Contact</a>
+        </div>
+      </div>
+      </div>
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="person.jpg" alt="Avatar" style="width:300px;height:300px;">
+          </div>
+          <div class="flip-card-back">
+            <h1>John Doe</h1> 
+            <p>Architect & Engineer</p> 
+            <p>We love that guy</p>
+            <a href="#" class="btn btn-primary">Contact</a>
+          </div>
+        </div>
+        </div>
+     <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="person2.png" alt="Avatar" style="width:300px;height:300px;">
+            </div>
+            <div class="flip-card-back">
+              <h1>John Doe</h1> 
+              <p>Architect & Engineer</p> 
+              <p>We love that guy</p>
+              <a href="#" class="btn btn-primary">Contact</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Rate & review -->
+<div class="heading" id="review">
+  <div class="row">
+  <h3><strong>-- REVIEW</strong></h3></div></div>
+    <span>User Rating</span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star"></span><br><br>
+    <p>4.1 average based on 254 reviews.</p>
+    <hr style="border:3px solid #f1f1f1">
+    <div class="row row-cols-1 row-cols-md-4 g-4"> 
+      <div class="column">
+      <div class="side">
+        <div>5 star</div>
+      </div>
+      <div class="middle">
+        <div class="bar-container">
+          <div class="bar-5"></div>
+        </div>
+      </div>
+      <div class="side right">
+        <div>150</div>
+      </div>
+      <div class="side">
+        <div>4 star</div>
+      </div>
+      <div class="middle">
+        <div class="bar-container">
+          <div class="bar-4"></div>
+        </div>
+      </div>
+      <div class="side right">
+        <div>63</div>
+      </div>
+      <div class="side">
+        <div>3 star</div>
+      </div>
+      <div class="middle">
+        <div class="bar-container">
+          <div class="bar-3"></div>
+        </div>
+      </div>
+      <div class="side right">
+        <div>15</div>
+      </div>
+      <div class="side">
+        <div>2 star</div>
+      </div>
+      <div class="middle">
+        <div class="bar-container">
+          <div class="bar-2"></div>
+        </div>
+      </div>
+      <div class="side right">
+        <div>6</div>
+      </div>
+      <div class="side">
+        <div>1 star</div>
+      </div>
+      <div class="middle">
+        <div class="bar-container">
+          <div class="bar-1"></div>
+        </div>
+      </div>
+      <div class="side right">
+        <div>20</div>
+      </div>
+    </div>
+ </div>
+</div>
+<!-- FOOTER -->
+<footer class="footer" id="contact">
   <div class="container">
       <div class="row">
           <div class="col-sm-4">
               <h4>Contact Us</h4>
-              <div class="contact">
-                <i class="fab fa-email-f">Email@gmail.com</i>
+              <div class="media-icons">
+              <div><a href="#"><i class="fas fa-envelope"></i>abc@gmail.com</a></div>
+              <div><a href="#"><i class="fas fa-phone-volume"></i>+007 9089 6767</a></div>
+              <div><a href="#"><i class="fa fa-map-marker"></i>Xyz home-234</a></div>
               </div>
           </div>
           <div class="col-sm-4">
@@ -140,7 +301,7 @@ crossorigin="anonymous"></script>
           </div>
           <div class="col-sm-4">
               <h4>Social</h4>
-              <div class="media-icons">
+              <div class="media-icons" >
                 <a href="#"><i class="fab fa-facebook-f"></i></a>
                 <a href="#"><i class="fab fa-instagram"></i></a>
                 <a href="#"><i class="fab fa-twitter"></i></a>
@@ -150,7 +311,9 @@ crossorigin="anonymous"></script>
           </div>
       </div>
   </div>
+  <div class="bottom">
+    <p>Copyright © 2023 <a href="#">Botique</a> All rights reserved</p>
+  </div>
 </footer>
-
-  </body>
+</body>
 </html>
